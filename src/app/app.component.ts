@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-root',
   // templateUrl: './app.component.html',
   template: `
-    <app-customers></app-customers>
+    <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })
